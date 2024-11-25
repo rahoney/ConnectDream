@@ -11,7 +11,7 @@ Supported by [(주)커넥트브릭](https://connectbrick.com/)
   - [About The Project](#About-The-Project) 
   - [Overview](#overview) 
   - [Getting Started](#getting-started)
-  - [Contributing](#contributing)
+  - [Tech Stack](#Thec-stack)
   - [Authors](#authors)
   - [License](#license)
 <!--  Other options to write Readme
@@ -63,5 +63,11 @@ Use the `BLANK_README.md` to get started.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
+## Tech Stack
 
+- **Programming Language**: Python 3.12
+- **Base Model**: Stable Diffusion
+- **Tools**: ComfyUI, Gradio
+- **Cloud Infrastructure**: AWS EC2, GPU Server
+- **GPU Server**: NVIDIA L4, A10
 
