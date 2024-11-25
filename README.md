@@ -18,6 +18,12 @@ Supported by [(주)커넥트브릭](https://connectbrick.com/)
   - [Deployment](#deployment)
   - [Used or Referenced Projects](Used-or-Referenced-Projects)
 -->
+https://github.com/rahoney/ConnectDream/blob/main/workfiles/gradio%20-%201732512687183.mp4
+<video controls width="640">
+  <source src="workfiles/gradio%20-%201732512687183.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
