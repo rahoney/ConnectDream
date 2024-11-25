@@ -75,3 +75,10 @@ Use the `BLANK_README.md` to get started.
 - **Cloud Infrastructure**: AWS EC2, GPU Server
 - **GPU Server**: NVIDIA L4, A10
 
+## Tech Stack
+
+- ![Python](https://path-to-your-python-icon.png) **Programming Language**: Python 3.12
+- ![Stable Diffusion](https://path-to-your-stable-diffusion-icon.png) **Base Model**: Stable Diffusion
+- ![ComfyUI](https://path-to-your-comfyui-icon.png) **Tools**: ComfyUI, Gradio
+- ![AWS EC2](https://path-to-your-aws-ec2-icon.png) **Cloud Infrastructure**: AWS EC2, GPU Server
+- ![NVIDIA](https://path-to-your-nvidia-icon.png) **GPU Server**: NVIDIA L4, A10
