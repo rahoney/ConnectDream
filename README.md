@@ -9,8 +9,10 @@ Supported by [(주)커넥트브릭](https://connectbrick.com/)
 
 [![영상 보기](https://via.placeholder.com/640x360?text=Vimeo+영상+보기)](https://vimeo.com/1032967243/6fb515787a?share=copy)
 
-
-<https://github.com/rahoney/ConnectDream/blob/80ed9d9013dd6f5ccab408fdbc78ada33b197b3b/workfiles/gradio-1732512687183.mp4>
+<video width="800" height="450" controls>
+  <source src="https://github.com/user-attachments/assets/faa8cf67-e743-4590-8bf6-ebf6ccc34175.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 
 ## Index
