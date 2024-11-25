@@ -9,10 +9,9 @@ Supported by [(주)커넥트브릭](https://connectbrick.com/)
 
 [![영상 보기](https://via.placeholder.com/640x360?text=Vimeo+영상+보기)](https://vimeo.com/1032967243/6fb515787a?share=copy)
 
-<video width="800" height="450" controls>
-  <source src="https://github.com/user-attachments/assets/faa8cf67-e743-4590-8bf6-ebf6ccc34175.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+### ConnectDream - Video Demo
+
+[![Watch the Video](https://via.placeholder.com/800x450?text=Video+Thumbnail)](https://github.com/user-attachments/assets/faa8cf67-e743-4590-8bf6-ebf6ccc34175.mp4)
 
 
 ## Index
