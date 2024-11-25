@@ -11,7 +11,7 @@ Supported by [(주)커넥트브릭](https://connectbrick.com/)
 
 ### ConnectDream - Video Demo
 
-[![Watch the Video](https://via.placeholder.com/800x450?text=Video+Thumbnail)](https://github.com/rahoney/ConnectDream/blob/7e6322f357d4649d771a00422b9b7a0f4196ade2/workfiles/gradio-1732512687183.mp4)
+[![Watch the Video](https://via.placeholder.com/800x450?text=Video+Thumbnail)](https://github.com/user-attachments/assets/faa8cf67-e743-4590-8bf6-ebf6ccc34175.mp4)
 
 
 ## Index
