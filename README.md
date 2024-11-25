@@ -5,7 +5,7 @@ ConnectDream은 2024년 이어드림스쿨 4기에서 진행된 기업연계 프
 🚀 Team Members  
 곽라흔 성지아  
 Supported by (주)커넥트브릭  
-
+그 결과를 오픈소스 프로젝트로 정리했습니다.
 
 ## Index
   - [Overview](#overview) 
@@ -19,7 +19,7 @@ Supported by (주)커넥트브릭
 -->
 
 
-그 결과를 오픈소스 프로젝트로 정리했습니다.
+
 
 
 
