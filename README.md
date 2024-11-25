@@ -20,9 +20,10 @@ Supported by [(주)커넥트브릭](https://connectbrick.com/)
 -->
 https://github.com/rahoney/ConnectDream/blob/main/workfiles/gradio-1732512687183.mp4
 <video controls width="640">
-  <source src="https://github.com/rahoney/ConnectDream/blob/main/workfiles/gradio-1732512687183.mp4" type="video/mp4">
+  <source src="https://raw.githubusercontent.com/rahoney/ConnectDream/main/workfiles/gradio-1732512687183.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
+
 
 
 
