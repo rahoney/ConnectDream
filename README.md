@@ -35,6 +35,10 @@ Of course, no one template will serve all projects since your needs may be diffe
 
 Use the `BLANK_README.md` to get started.
 
+> \[!IMPORTANT]
+>
+> **Star Us**, You will receive all release notifications from GitHub without any delay \~ ⭐️
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
