@@ -32,32 +32,24 @@ https://github.com/user-attachments/assets/78cbaae1-fca3-4434-8e22-6da7f7ba8f44
 2. 3장의 Input Image를 입력하여 노래하는 이미지를 생성합니다.
 3. 1장의 Input Image를 입력하여 영상으로 변환 생성합니다.
 
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should implement DRY principles to the rest of your life :smile:
+ComfyUI를 이용하여 이미지 생성을 구현하였고, 배포는 Gradio를 활용하여 한 화면에서 구현했습니다.  
 
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
+**
+영상 생성을 위해서는 최소 24GB VRAM의 GPU를 사용하는 것이 안정적입니다.
 
-Use the `BLANK_README.md` to get started.
-
-> \[!IMPORTANT]
->
-> **Star Us**, You will receive all release notifications from GitHub without any delay \~ ⭐️
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 ## Overview
 <!-- Write Overview about this project -->
-**If you use this template, you can use this function**
+**영정 사진 생성**
 - Issue Template
 - Pull Request Template
 - Commit Template
 - Readme Template
 - Contribute Template
 - Pull Request Build Test(With Github Actions)
-
+**노래하는 이미지 생성**
+**영정 사진 만들기**
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
