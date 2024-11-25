@@ -8,10 +8,10 @@ Supported by [(주)커넥트브릭](https://connectbrick.com/)
 그 결과를 오픈소스 프로젝트로 정리했습니다.
 
 ## Index
-  - [About The Project](#About-The-Project) 
+  - [About The Project](#about-the-project) 
   - [Overview](#overview) 
   - [Getting Started](#getting-started)
-  - [Tech Stack](#Thec-stack)
+  - [Tech Stack](#tech-stack)
   - [Authors](#authors)
   - [License](#license)
 <!--  Other options to write Readme
