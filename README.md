@@ -7,7 +7,7 @@ ConnectDream은 2024년 이어드림스쿨 4기에서 진행된 기업연계 프
 Supported by [(주)커넥트브릭](https://connectbrick.com/)  
 그 결과를 오픈소스 프로젝트로 정리했습니다.
 
-[![영상 보기](https://via.placeholder.com/640x360?text=영상+보기)](https://1drv.ms/v/c/13eace209aaee6bb/EVp_ppID1FdLmuyZ6WMCCL0B57dx-SrEIhmS-JtCwudVDQ?e=wPH5MG)
+[![영상 보기](https://via.placeholder.com/640x360?text=Vimeo+영상+보기)](https://vimeo.com/1032967243/6fb515787a?share=copy)
 
 
 
