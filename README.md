@@ -13,6 +13,7 @@ Supported by [(주)커넥트브릭](https://connectbrick.com/)
 
 [![Watch the Video](https://via.placeholder.com/800x450?text=Video+Thumbnail)](https://github.com/rahoney/ConnectDream/blob/main/workfiles/generated_movie.mp4)
 
+https://github.com/user-attachments/assets/78cbaae1-fca3-4434-8e22-6da7f7ba8f44
 
 ## Index
   - [About The Project](#about-the-project) 
