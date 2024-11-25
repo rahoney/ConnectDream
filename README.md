@@ -23,7 +23,11 @@ https://raw.github.com/rahoney/ConnectDream/blob/main/workfiles/smile1.mp4
   <source src="https://raw.githubusercontent.com/rahoney/ConnectDream/main/workfiles/smile1.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
-
+workfiles/generated_movie.mp4
+<video controls width="640">
+  <source src="workfiles/generated_movie.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 
 
