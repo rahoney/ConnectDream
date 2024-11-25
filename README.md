@@ -1,7 +1,7 @@
 # ConnectDream
 Corporate Collaboration Project -Memorial Service Assistance  
 ConnectDream은 2024년 이어드림스쿨 4기에서 진행된 기업연계 프로젝트입니다.  
-연계기업(커넥트브릭)으로부터 B2B 상조서비스에 사용할 수 있는 영정 사진 이미지 생성을 비롯한 다양한 기획을 하고 만드는 프로젝트였습니다.   
+연계기업(커넥트브릭)으로부터 B2B 상조서비스에 사용할 수 있는 서비스를 기획을 하고 구현하는 프로젝트입니다.   
 🚀 Team Members  
 [곽라흔](https://github.com/rahoney) [성지아](https://github.com/jiasung00)  
 Supported by [(주)커넥트브릭](https://connectbrick.com/)  
@@ -22,26 +22,15 @@ https://github.com/user-attachments/assets/78cbaae1-fca3-4434-8e22-6da7f7ba8f44
 <!--  Other options to write Readme
   - [Deployment](#deployment)
   - [Used or Referenced Projects](Used-or-Referenced-Projects)
--->
-https://raw.github.com/rahoney/ConnectDream/blob/main/workfiles/smile1.mp4
-<video controls width="640">
-  <source src="https://raw.githubusercontent.com/rahoney/ConnectDream/main/workfiles/smile1.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-workfiles/generated_movie.mp4
-<video controls width="640">
-  <source src="workfiles/generated_movie.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-
-
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
+[![Product Name Screen Shot][product-screenshot]](https://example.com)  
+본 프로젝트는 3가지 Task를 다룹니다.  
+1. 1장의 Input Image를 입력하여 영정 사진을 생성합니다.
+2. 3장의 Input Image를 입력하여 노래하는 이미지를 생성합니다.
+3. 1장의 Input Image를 입력하여 영상으로 변환 생성합니다.
 
 Here's why:
 * Your time should be focused on creating something amazing. A project that solves a problem and helps others
