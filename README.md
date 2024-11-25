@@ -14,7 +14,8 @@ https://github.com/user-attachments/assets/78cbaae1-fca3-4434-8e22-6da7f7ba8f44
 
 ## Index
   - [About The Project](#about-the-project) 
-  - [Overview](#overview) 
+  - [Overview](#overview)
+  - [Model Configuration](#Model-Configuration)
   - [Getting Started](#getting-started)
   - [Tech Stack](#tech-stack)
   - [Authors](#authors)
@@ -27,44 +28,40 @@ https://github.com/user-attachments/assets/78cbaae1-fca3-4434-8e22-6da7f7ba8f44
 ## About The Project
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)  
-본 프로젝트는 3가지 Task를 다룹니다.  
-1. 1장의 Input Image를 입력하여 영정 사진을 생성합니다.
-2. 3장의 Input Image를 입력하여 노래하는 이미지를 생성합니다.
-3. 1장의 Input Image를 입력하여 영상으로 변환 생성합니다.
+인공지능 생성형 이미지를 활용하여 상조 서비스로 쓰일 수 있는 기획과 구현을 목표로 한 프로젝트입니다.  
+저희는 본 프로젝트에서 3가지 기획안을 구현하는 Task를 수행했습니다.  
+1. 고인 또는 죽음을 앞둔 분의 일상 사진을 1장 입력에 사용하여 스튜디오에서 촬영한 것 같은 영정 사진을 생성하는 Task입니다.  
+2. 3장의 이미지를 입력에 사용하여 생전에 꿈이였거나 취미였던 노래하는 모습을 생성하는 Task입니다.  
+3. 유가족을 위해 정적인 영정 사진을 넘어서 보다 생동감있는 모습의 영상으로 구현하는 Task입니다.  
 
 ComfyUI를 이용하여 이미지 생성을 구현하였고, 배포는 Gradio를 활용하여 한 화면에서 구현했습니다.  
-
-**
-영상 생성을 위해서는 최소 24GB VRAM의 GPU를 사용하는 것이 안정적입니다.
-
 
 
 ## Overview
 <!-- Write Overview about this project -->
-**영정 사진 생성**
-- Issue Template
-- Pull Request Template
-- Commit Template
-- Readme Template
-- Contribute Template
-- Pull Request Build Test(With Github Actions)
-**노래하는 이미지 생성**
-**영정 사진 만들기**
+
+## Model Configuration  
+**영정 사진 생성**  
+checkpoint model: DreamShaperXL v2.1 turbo DPMSDE  
+LoRA: ip-adapter faceid pluse v2 sdxl  
+Controlnet: Instantid sdxl  
+
+**노래하는 이미지 생성**  
+checkpoint model: DreamShaperXL-v2.1-turboDPMSDE  
+LoRA: epiCRealismHelper  
+Controlnet: TTplanet sdxl v20 fp16  
+CLIP: ViT H 14 laion 2B s32B b79k  
+  
+**영정 사진 만들기**  
+CLIP: fluxTextencoderT5XxlFp8v10  
+CogVideo Model: CogVideoX 5b I2V / bf16  
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
 ## Tech Stack
-
-- **Programming Language**: Python 3.12
-- **Base Model**: Stable Diffusion
-- **Tools**: ComfyUI, Gradio
-- **Cloud Infrastructure**: AWS EC2, GPU Server
-- **GPU Server**: NVIDIA L4, A10
-
-## Tech Stack
-
 - ![Python](https://path-to-your-python-icon.png) **Programming Language**: Python 3.12
 - ![Stable Diffusion](https://path-to-your-stable-diffusion-icon.png) **Base Model**: Stable Diffusion
 - ![ComfyUI](https://path-to-your-comfyui-icon.png) **Tools**: ComfyUI, Gradio
 - ![AWS EC2](https://path-to-your-aws-ec2-icon.png) **Cloud Infrastructure**: AWS EC2, GPU Server
 - ![NVIDIA](https://path-to-your-nvidia-icon.png) **GPU Server**: NVIDIA L4, A10
+- 영상 생성을 위해서는 최소 24GB VRAM의 GPU를 사용하는 것이 안정적입니다.
