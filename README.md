@@ -32,8 +32,4 @@ Supported by (주)커넥트브릭
 
 
 
-<!-- CONTACT -->
-## Contact
 
-JIA - jiasungdia@gmail.com
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
