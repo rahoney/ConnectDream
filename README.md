@@ -15,7 +15,6 @@ https://github.com/user-attachments/assets/78cbaae1-fca3-4434-8e22-6da7f7ba8f44
   - [Overview](#overview)
   - [Operational and Deployment Server Specs](#operational-and-deployment-server-specs)
   - [Multi-Server Deployment of ComfyUI and Gradio](#multi-server-deployment-of-comfyui-and-gradio)  
-  - [Model Configuration](#Model-Configuration)
   - [Getting Started](#getting-started)
   - [Authors](#authors)
   - [License](#license)
@@ -99,8 +98,8 @@ https://github.com/user-attachments/assets/78cbaae1-fca3-4434-8e22-6da7f7ba8f44
 <b>Task3 Output</b>  
   
 https://github.com/user-attachments/assets/cc32dee4-4617-4134-b5a1-014c5d38279f  
-
-
+  
+<b>Model Configuration</b>  
 | Task                | Type             | 주요 모델 및 구성 요소                                | 입력       | 출력       |
 |---------------------|------------------|-----------------------------------------------------|------------|------------|
 | **Task 1**          | Image-to-Image  | DreamShaperXL, ip-adapter faceid pluse v2 sdxl, Instantid sdxl | 인물 사진  | 영정사진  |
@@ -143,22 +142,6 @@ Stable Diffusion을 기반으로 한 ComfyUI와 Gradio를 활용하여 멀티 �
 각 서버의 상세 스펙은 위의 표를 참조하시기 바랍니다.
 
 
-
-## Model Configuration  
-**영정 사진 생성**  
-checkpoint model: DreamShaperXL v2.1 turbo DPMSDE  
-LoRA: ip-adapter faceid pluse v2 sdxl  
-Controlnet: Instantid sdxl  
-
-**노래하는 이미지 생성**  
-checkpoint model: DreamShaperXL-v2.1-turboDPMSDE  
-LoRA: epiCRealismHelper  
-Controlnet: TTplanet sdxl v20 fp16  
-CLIP: ViT H 14 laion 2B s32B b79k  
-  
-**영정 사진 만들기**  
-CLIP: fluxTextencoderT5XxlFp8v10  
-CogVideo Model: CogVideoX 5b I2V / bf16  
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
