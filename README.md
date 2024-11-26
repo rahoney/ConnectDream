@@ -53,7 +53,7 @@ https://github.com/user-attachments/assets/cc32dee4-4617-4134-b5a1-014c5d38279f
 https://github.com/user-attachments/assets/78cbaae1-fca3-4434-8e22-6da7f7ba8f44  
 
 
-# Operational and Deployment Server Specs
+## Operational and Deployment Server Specs
 
 | 서버 이름      | GPU Server 1                                                                                     | EC2 GPU                                                                                     | 배포서버                                                                                     |
 |----------------|--------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|
@@ -67,7 +67,8 @@ https://github.com/user-attachments/assets/78cbaae1-fca3-4434-8e22-6da7f7ba8f44
 | **RAM**        | 47 GiB                                                                                          | 256 GiB                                                                                     | 32 GiB                                                                                      |
 | **스토리지**   | 1TB                                                                                             | 500GB SSD                                                                                   | 300GB SSD (gp3)                                                                             |
 | **프로세서**   | Intel(R) Xeon(R) CPU @ 2.20GHz                                                                  | 2nd Gen Intel Xeon Scalable (Cascade Lake)                                                  | 4세대 Intel Xeon Scalable (Ice Lake)                                                       |
-
+> [!IMPORTANT]
+> 영상 생성을 위해서는 최소 24GB VRAM의 GPU를 사용하는 것이 안정적입니다
 
 
 
@@ -89,10 +90,4 @@ CogVideo Model: CogVideoX 5b I2V / bf16
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Tech Stack
-- ![Python](https://path-to-your-python-icon.png) **Programming Language**: Python 3.12
-- ![Stable Diffusion](https://path-to-your-stable-diffusion-icon.png) **Base Model**: Stable Diffusion
-- ![ComfyUI](https://path-to-your-comfyui-icon.png) **Tools**: ComfyUI, Gradio
-- ![AWS EC2](https://path-to-your-aws-ec2-icon.png) **Cloud Infrastructure**: AWS EC2, GPU Server
-- ![NVIDIA](https://path-to-your-nvidia-icon.png) **GPU Server**: NVIDIA L4, A10
-- 영상 생성을 위해서는 최소 24GB VRAM의 GPU를 사용하는 것이 안정적입니다.
+
