@@ -11,9 +11,9 @@ Supported by [(주)커넥트브릭](https://connectbrick.com/)
   - [About The Project](#about-the-project) 
   - [Overview](#overview)
   - [Operational and Deployment Server Specs](#operational-and-deployment-server-specs)
+  - [Multi-Server Deployment of ComfyUI and Gradio](#multi-server-deployment-of-comfyui-and-gradio)  
   - [Model Configuration](#Model-Configuration)
   - [Getting Started](#getting-started)
-  - [Tech Stack](#tech-stack)
   - [Authors](#authors)
   - [License](#license)
 <!--  Other options to write Readme
@@ -32,7 +32,7 @@ Supported by [(주)커넥트브릭](https://connectbrick.com/)
 
 ComfyUI를 이용하여 이미지 생성을 구현하였고, 배포는 Gradio를 활용하여 한 화면에서 구현했습니다.  
 
-<img src="https://raw.githubusercontent.com/rahoney/ConnectDream/main/workfiles/Architecture.png" alt="Architecture" width="500">  
+
 
 ## Overview  
 <!-- Write Overview about this project -->
@@ -52,6 +52,7 @@ https://github.com/user-attachments/assets/cc32dee4-4617-4134-b5a1-014c5d38279f
 ### Gradio로 구현한 front 작동 화면   
 https://github.com/user-attachments/assets/78cbaae1-fca3-4434-8e22-6da7f7ba8f44  
 
+## Multi-Server Deployment of ComfyUI and Gradio 
 
 ## Operational and Deployment Server Specs
 
@@ -69,6 +70,18 @@ https://github.com/user-attachments/assets/78cbaae1-fca3-4434-8e22-6da7f7ba8f44
 | **프로세서**   | Intel(R) Xeon(R) CPU @ 2.20GHz                                                                  | 2nd Gen Intel Xeon Scalable (Cascade Lake)                                                  | 4세대 Intel Xeon Scalable (Ice Lake)                                                       |
 > [!IMPORTANT]
 > 영상 생성을 위해서는 최소 24GB VRAM의 GPU를 사용하는 것이 안정적입니다
+
+
+## Multi-Server Deployment of ComfyUI and Gradio
+Stable Diffusion을 기반으로 한 ComfyUI와 Gradio를 활용하여 멀티 서버 환경에서 영상 생성 시스템을 구축 했습니다. 서버간 통신은 SSH로 연결해 통해 연결되며, 이를 통해 안전하고 신뢰할 수 있는 데이터 교환이 가능하도록 설정하였습니다. 
+<img src="https://raw.githubusercontent.com/rahoney/ConnectDream/main/workfiles/Architecture.png" alt="Architecture" width="500">  
+
+시스템 아키텍처
+우리의 시스템은 세 가지 주요 서버로 구성되어 있습니다:
+  1. GPU Server 1: 주 연산 서버
+  2. EC2 GPU: AWS 클라우드 기반 고성능 GPU 서버
+  3. 배포 서버: 사용자 인터페이스 및 서비스 관리
+각 서버의 상세 스펙은 위의 표를 참조하시기 바랍니다.
 
 
 
