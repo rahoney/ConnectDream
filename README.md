@@ -43,23 +43,77 @@ https://github.com/user-attachments/assets/78cbaae1-fca3-4434-8e22-6da7f7ba8f44
 **보다 생동감 있는 모습의 영상**으로 구현하는 Task입니다.  
 
 
+노이즈를 이용한 이미지 생성 모델인 Stable Diffusion 모델을 베이스로 한 것을 사용했고, 대부분 XL 버전이 사용되었습니다.
 
+ComfyUI를 이용하여 이미지 생성을 구현하였고, 배포는 Gradio를 활용하여 한 화면에서 구현했습니다.  
 
+<img src="https://raw.githubusercontent.com/rahoney/ConnectDream/main/workfiles/Architecture.png" alt="Architecture" width="500">  
 
 ## Overview  
 <!-- Write Overview about this project -->
+<b>Task 1: 증명사진 스타일의 영정사진 생성</b>  
+* 작업 유형: Image-to-Image  
+* 목적: 입력 이미지를 스튜디오에서 촬영한 것처럼 정제된 증명사진 또는 영정사진 형태로 변환.  
+* 입력: 일반적인 인물 사진.  
+* 출력: 깔끔하고 품격 있는 영정사진 스타일의 이미지.  
+* 사용된 기술 및 구성:  
+  * Checkpoint Model: DreamShaperXL 2.1 turbo DPMSDE  
+ 고해상도의 정교한 이미지를 생성하며, 조명과 텍스처 표현이 우수하여 영정사진에 적합한 품질을 보장합니다.
+  * LoRA: ip-adapter  
+입력 얼굴의 주요 특징을 세밀히 분석하여 정제된 스타일 변환을 지원합니다. 얼굴의 비율, 윤곽, 주요 디테일을 유지하며 증명사진 형식으로 전환합니다.  
+  * ControlNet: InstantID  
+증명사진의 표준적인 구도와 배경을 유지하면서 입력 이미지의 안정성을 강화합니다. 얼굴 중심의 정렬과 배경 보정 작업을 수행하여 정돈된 결과물을 생성합니다.  
+
 <b>Task1 Workflow</b>  
 <img src="https://raw.githubusercontent.com/rahoney/ConnectDream/main/workfiles/Task1_IDPhoto.png" alt="Task1 IDPhoto" width="500">
+<b>Task1 Output</b>  
 <img src="https://raw.githubusercontent.com/rahoney/ConnectDream/main/workfiles/Task1_Out.png" alt="Task1 Out" width="300">
+
+<b>Task 2: 생전 좋아했던 노래하는 모습 생성</b>
+* 작업 유형: Image-to-Image
+* 목적: 고인이 생전에 즐겼던 활동 중 노래하는 모습을 재현한 이미지를 생성.
+* 입력: 고인의 생전 사진 3장.
+* 출력: 노래하는 모습을 담은 3개의 사실적이고 감정적인 이미지.
+* 사용된 기술:
+  * Checkpoint Model: DreamShaperXL v2.1 turbo DPMSDE  
+고해상도의 사실적 이미지를 생성하며, 감정을 담은 디테일한 장면을 표현합니다.
+  * LoRA: epiCRealismHelper  
+감정과 디테일을 강화하여 생동감 있는 이미지를 생성하며, 인물의 표정과 자세에서 깊은 사실성을 제공합니다.
+  * ControlNet: TTplanet sdxl v20 fp16  
+입력된 다중 이미지의 일관성을 유지하며 노래와 관련된 포즈와 배경을 정밀하게 설정합니다.
+  * CLIP: ViT H 14 laion 2B s32B b79k  
+텍스트와 이미지 간의 의미적 연결을 강화하여 노래라는 주제와 입력 이미지의 관계를 조화롭게 반영합니다.  
+
 <b>Task2 Workflow</b>  
-<img src="https://raw.githubusercontent.com/rahoney/ConnectDream/main/workfiles/Task2_ImageTransfer.png" alt="Task2 ImageTransfer" width="500">
-<b>Task2 Output</b> 
+<img src="https://raw.githubusercontent.com/rahoney/ConnectDream/main/workfiles/Task2_ImageTransfer.png" alt="Task2 ImageTransfer" width="500">  
+<b>Task2 Output</b>  
 <img src="https://raw.githubusercontent.com/rahoney/ConnectDream/main/workfiles/Task2_Out.png" alt="Task2 Out" width="300">
+
+<b>Task 3: 생동감 있는 영상 생성</b>
+* 작업 유형: Image-to-Video
+* 목적: 정적인 이미지를 기반으로 눈 깜빡임 및 머리카락 움직임과 같은 생동감을 부여한 짧은 영상 생성.
+* 입력: 고인의 정적인 이미지 1장.
+* 출력: 눈 깜빡임과 머리카락 움직임이 포함된 짧은 애니메이션 영상.
+* 사용된 기술:
+  * CLIP: fluxTextencoderT5XxlFp8v10  
+입력 이미지에서 구현할 세부적인 애니메이션 스타일과 생동감 있는 특성을 분석합니다. 텍스트 정보를 활용하여 자연스러운 움직임을 생성하는 데 사용됩니다.
+  * CogVideo Model: CogVideoX 5b I2V / bf16  
+정적인 이미지를 기반으로 눈 깜빡임과 머리카락의 움직임을 포함한 자연스러운 영상을 생성합니다. 애니메이션의 현실감을 높이며, 일관성 있는 결과를 보장합니다.
+
 <b>Task3 Workflow</b>  
 <img src="https://raw.githubusercontent.com/rahoney/ConnectDream/main/workfiles/Task3_Videowork.png" alt="Task3 Videowork" width="500">
 <b>Task3 Output</b>  
   
 https://github.com/user-attachments/assets/cc32dee4-4617-4134-b5a1-014c5d38279f  
+
+
+| Task                | Type             | 주요 모델 및 구성 요소                                | 입력       | 출력       |
+|---------------------|------------------|-----------------------------------------------------|------------|------------|
+| **Task 1**          | Image-to-Image  | DreamShaperXL, ip-adapter faceid pluse v2 sdxl, Instantid sdxl | 인물 사진  | 영정사진  |
+| **Task 2**          | Image-to-Image  | DreamShaperXL, epiCRealismHelper, TTplanet, CLIP   | 사진 3장   | 노래 모습 |
+| **Task 3**          | Image-to-Video  | CogVideo, fluxTextencoder                          | 인물 사진  | 짧은 영상 |
+
+  
 
 
 
