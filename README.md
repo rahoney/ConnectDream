@@ -112,7 +112,7 @@ https://github.com/user-attachments/assets/cc32dee4-4617-4134-b5a1-014c5d38279f
 
 ## Multi-Server Deployment of ComfyUI and Gradio 
 
-## Operational and Deployment Server Specs
+Operational and Deployment Server Specs
 
 | 서버 이름      | GPU Server 1                                                                                     | EC2 GPU                                                                                     | 배포서버                                                                                     |
 |----------------|--------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|
