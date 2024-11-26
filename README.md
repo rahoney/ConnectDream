@@ -13,6 +13,7 @@ https://github.com/user-attachments/assets/78cbaae1-fca3-4434-8e22-6da7f7ba8f44
 ## Index
   - [About The Project](#about-the-project) 
   - [Contents](#Contents)
+  - [Model Configuration](#model-configuration)
   - [Operational and Deployment Server Specs](#operational-and-deployment-server-specs)
   - [Multi-Server Deployment of ComfyUI and Gradio](#multi-server-deployment-of-comfyui-and-gradio)  
   - [Getting Started](#getting-started)
@@ -96,10 +97,13 @@ https://github.com/user-attachments/assets/78cbaae1-fca3-4434-8e22-6da7f7ba8f44
 <b>Task3 Workflow</b>  
 <img src="https://raw.githubusercontent.com/rahoney/ConnectDream/main/workfiles/Task3_Videowork.png" alt="Task3 Videowork" width="500">  
 <b>Task3 Output</b>  
-  
+
 https://github.com/user-attachments/assets/cc32dee4-4617-4134-b5a1-014c5d38279f  
+
+ 
+
   
-<b>Model Configuration</b>  
+## <b>Model Configuration</b>  
 | Task                | Type             | 주요 모델 및 구성 요소                                | 입력       | 출력       |
 |---------------------|------------------|-----------------------------------------------------|------------|------------|
 | **Task 1**          | Image-to-Image  | DreamShaperXL, ip-adapter faceid pluse v2 sdxl, Instantid sdxl | 인물 사진  | 영정사진  |
