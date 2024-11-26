@@ -16,9 +16,8 @@ https://github.com/user-attachments/assets/78cbaae1-fca3-4434-8e22-6da7f7ba8f44
   - [Model Configuration](#model-configuration)
   - [Operational and Deployment Server Specs](#operational-and-deployment-server-specs)
   - [Multi-Server Deployment of ComfyUI and Gradio](#multi-server-deployment-of-comfyui-and-gradio)  
-  - [Getting Started](#getting-started)
-  - [Authors](#authors)
-  - [License](#license)
+
+
 <!--  Other options to write Readme
   - [Deployment](#deployment)
   - [Used or Referenced Projects](Used-or-Referenced-Projects)
@@ -131,10 +130,10 @@ Operational and Deployment Server Specs
 | **스토리지**   | 1TB                                                                                             | 500GB SSD                                                                                   | 300GB SSD (gp3)                                                                             |
 | **프로세서**   | Intel(R) Xeon(R) CPU @ 2.20GHz                                                                  | 2nd Gen Intel Xeon Scalable (Cascade Lake)                                                  | 4세대 Intel Xeon Scalable (Ice Lake)                                                       |
 > [!IMPORTANT]
-> 영상 생성을 위해서는 최소 24GB VRAM의 GPU를 사용하는 것이 안정적입니다
+> 영상 생성을 위해서는 최소 24GB VRAM의 GPU를 사용하는 것이 안정적입니다  
 
-
-## Multi-Server Deployment of ComfyUI and Gradio
+   
+   
 Stable Diffusion을 기반으로 한 ComfyUI와 Gradio를 활용하여 멀티 서버 환경에서 영상 생성 시스템을 구축 했습니다. 서버간 통신은 SSH로 연결해 통해 연결되며, 이를 통해 안전하고 신뢰할 수 있는 데이터 교환이 가능하도록 설정하였습니다. 
 <img src="https://raw.githubusercontent.com/rahoney/ConnectDream/main/workfiles/Architecture.png" alt="Architecture" width="500">  
 
