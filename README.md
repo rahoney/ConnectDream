@@ -7,6 +7,9 @@ ConnectDream은 2024년 이어드림스쿨 4기에서 진행된 기업연계 프
 Supported by [(주)커넥트브릭](https://connectbrick.com/)  
 그 결과를 오픈소스 프로젝트로 정리했습니다.  
 
+## Demo
+https://github.com/user-attachments/assets/78cbaae1-fca3-4434-8e22-6da7f7ba8f44  
+
 ## Index
   - [About The Project](#about-the-project) 
   - [Overview](#overview)
@@ -69,8 +72,7 @@ ComfyUI를 이용하여 이미지 생성을 구현하였고, 배포는 Gradio를
   
 https://github.com/user-attachments/assets/cc32dee4-4617-4134-b5a1-014c5d38279f  
 
-### Gradio로 구현한 front 작동 화면   
-https://github.com/user-attachments/assets/78cbaae1-fca3-4434-8e22-6da7f7ba8f44  
+
 
 ## Multi-Server Deployment of ComfyUI and Gradio 
 
