@@ -7,9 +7,6 @@ ConnectDream은 2024년 이어드림스쿨 4기에서 진행된 기업연계 프
 Supported by [(주)커넥트브릭](https://connectbrick.com/)  
 그 결과를 오픈소스 프로젝트로 정리했습니다.  
 
-### ConnectDream - Video Demo  
-https://github.com/user-attachments/assets/78cbaae1-fca3-4434-8e22-6da7f7ba8f44  
-  
 ## Index
   - [About The Project](#about-the-project) 
   - [Overview](#overview)
@@ -38,13 +35,21 @@ ComfyUI를 이용하여 이미지 생성을 구현하였고, 배포는 Gradio를
 
 ## Overview  
 <!-- Write Overview about this project -->
-
+<b>Task1 Workflow</b>  
 <img src="https://raw.githubusercontent.com/rahoney/ConnectDream/main/workfiles/Task1_IDPhoto.png" alt="Task1 IDPhoto" width="500">
+<img src="https://raw.githubusercontent.com/rahoney/ConnectDream/main/workfiles/Task1_Out.png" alt="Task1 Out" width="300">
+<b>Task2 Workflow</b>  
 <img src="https://raw.githubusercontent.com/rahoney/ConnectDream/main/workfiles/Task2_ImageTransfer.png" alt="Task2 ImageTransfer" width="500">
+<b>Task2 Output</b> 
+<img src="https://raw.githubusercontent.com/rahoney/ConnectDream/main/workfiles/Task2_Out.png" alt="Task2 Out" width="300">
+<b>Task3 Workflow</b>  
 <img src="https://raw.githubusercontent.com/rahoney/ConnectDream/main/workfiles/Task3_Videowork.png" alt="Task3 Videowork" width="500">
-<img src="https://raw.githubusercontent.com/rahoney/ConnectDream/main/workfiles/Task1_Output.png" alt="Task1 Output" width="500">
-<img src="https://raw.githubusercontent.com/rahoney/ConnectDream/main/workfiles/Task2_Output.png" alt="Task2 Output" width="500">
-<img src="https://raw.githubusercontent.com/rahoney/ConnectDream/main/workfiles/Task1_Output.png" alt="Task1 Output" width="500">
+<b>Task3 Output</b>  
+  
+https://github.com/user-attachments/assets/cc32dee4-4617-4134-b5a1-014c5d38279f  
+
+### Gradio로 구현한 front 작동 화면   
+https://github.com/user-attachments/assets/78cbaae1-fca3-4434-8e22-6da7f7ba8f44  
 
 ## Model Configuration  
 **영정 사진 생성**  
