@@ -5,13 +5,11 @@ ConnectDream은 2024년 이어드림스쿨 4기에서 진행된 기업연계 프
 🚀 Team Members  
 [곽라흔](https://github.com/rahoney) [성지아](https://github.com/jiasung00)  
 Supported by [(주)커넥트브릭](https://connectbrick.com/)  
-그 결과를 오픈소스 프로젝트로 정리했습니다.
+그 결과를 오픈소스 프로젝트로 정리했습니다.  
 
-
-
-### ConnectDream - Video Demo
-https://github.com/user-attachments/assets/78cbaae1-fca3-4434-8e22-6da7f7ba8f44
-
+### ConnectDream - Video Demo  
+https://github.com/user-attachments/assets/78cbaae1-fca3-4434-8e22-6da7f7ba8f44  
+  
 ## Index
   - [About The Project](#about-the-project) 
   - [Overview](#overview)
@@ -36,9 +34,15 @@ https://github.com/user-attachments/assets/78cbaae1-fca3-4434-8e22-6da7f7ba8f44
 
 ComfyUI를 이용하여 이미지 생성을 구현하였고, 배포는 Gradio를 활용하여 한 화면에서 구현했습니다.  
 
-
-## Overview
+<img src="https://raw.githubusercontent.com/rahoney/ConnectDream/main/workfiles/Architecture.png" alt="Architecture" width="500">  
+## Overview  
 <!-- Write Overview about this project -->
+<img src="https://raw.githubusercontent.com/rahoney/ConnectDream/main/workfiles/스크린샷_IDPhoto.png" alt="스크린샷_IDPhoto" width="500">
+<img src="https://raw.githubusercontent.com/rahoney/ConnectDream/main/workfiles/Task1_Output.png" alt="Task1_Output" width="500">
+<img src="https://raw.githubusercontent.com/rahoney/ConnectDream/main/workfiles/Screenshot_IDPhoto.png" alt="Screenshot_IDPhoto" width="500">
+<img src="https://raw.githubusercontent.com/rahoney/ConnectDream/main/workfiles/Task1_Output.png" alt="Task1_Output" width="500">
+
+
 
 ## Model Configuration  
 **영정 사진 생성**  
