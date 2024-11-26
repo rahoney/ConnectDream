@@ -25,17 +25,6 @@ https://github.com/user-attachments/assets/78cbaae1-fca3-4434-8e22-6da7f7ba8f44
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-
-[![Product Name Screen Shot][product-screenshot]](https://example.com)  
-인공지능 생성형 이미지를 활용하여 상조 서비스로 쓰일 수 있는 기획과 구현을 목표로 한 프로젝트입니다.  
-저희는 본 프로젝트에서 3가지 기획안을 구현하는 Task를 수행했습니다.  
-1. 고인 또는 죽음을 앞둔 분의 일상 사진을 1장 입력에 사용하여 스튜디오에서 촬영한 것 같은 영정 사진을 생성하는 Task입니다.  
-2. 3장의 이미지를 입력에 사용하여 생전에 꿈이였거나 취미였던 노래하는 모습을 생성하는 Task입니다.  
-3. 유가족을 위해 정적인 영정 사진을 넘어서 보다 생동감있는 모습의 영상으로 구현하는 Task입니다.  
-
-ComfyUI를 이용하여 이미지 생성을 구현하였고, 배포는 Gradio를 활용하여 한 화면에서 구현했습니다.  
-
-요 컨셉은 어때요?
 ---
 ### ✨ ${\textsf{\color{Indigo}Task 1: 영정 사진 생성}}$
 고인 또는 죽음을 앞둔 분의 **일상 사진 1장**을 입력으로 사용하여,  
