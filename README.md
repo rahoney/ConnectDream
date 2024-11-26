@@ -35,14 +35,16 @@ https://github.com/user-attachments/assets/78cbaae1-fca3-4434-8e22-6da7f7ba8f44
 ComfyUI를 이용하여 이미지 생성을 구현하였고, 배포는 Gradio를 활용하여 한 화면에서 구현했습니다.  
 
 <img src="https://raw.githubusercontent.com/rahoney/ConnectDream/main/workfiles/Architecture.png" alt="Architecture" width="500">  
+
 ## Overview  
 <!-- Write Overview about this project -->
-<img src="https://raw.githubusercontent.com/rahoney/ConnectDream/main/workfiles/스크린샷_IDPhoto.png" alt="스크린샷_IDPhoto" width="500">
-<img src="https://raw.githubusercontent.com/rahoney/ConnectDream/main/workfiles/Task1_Output.png" alt="Task1_Output" width="500">
-<img src="https://raw.githubusercontent.com/rahoney/ConnectDream/main/workfiles/Screenshot_IDPhoto.png" alt="Screenshot_IDPhoto" width="500">
-<img src="https://raw.githubusercontent.com/rahoney/ConnectDream/main/workfiles/Task1_Output.png" alt="Task1_Output" width="500">
 
-
+<img src="https://raw.githubusercontent.com/rahoney/ConnectDream/main/workfiles/Task1_IDPhoto.png" alt="Task1 IDPhoto" width="500">
+<img src="https://raw.githubusercontent.com/rahoney/ConnectDream/main/workfiles/Task2_ImageTransfer.png" alt="Task2 ImageTransfer" width="500">
+<img src="https://raw.githubusercontent.com/rahoney/ConnectDream/main/workfiles/Task3_Videowork.png" alt="Task3 Videowork" width="500">
+<img src="https://raw.githubusercontent.com/rahoney/ConnectDream/main/workfiles/Task1_Output.png" alt="Task1 Output" width="500">
+<img src="https://raw.githubusercontent.com/rahoney/ConnectDream/main/workfiles/Task2_Output.png" alt="Task2 Output" width="500">
+<img src="https://raw.githubusercontent.com/rahoney/ConnectDream/main/workfiles/Task1_Output.png" alt="Task1 Output" width="500">
 
 ## Model Configuration  
 **영정 사진 생성**  
