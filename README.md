@@ -12,7 +12,7 @@ https://github.com/user-attachments/assets/78cbaae1-fca3-4434-8e22-6da7f7ba8f44
 
 ## Index
   - [About The Project](#about-the-project) 
-  - [Overview](#overview)
+  - [Contents](#Contents)
   - [Operational and Deployment Server Specs](#operational-and-deployment-server-specs)
   - [Multi-Server Deployment of ComfyUI and Gradio](#multi-server-deployment-of-comfyui-and-gradio)  
   - [Getting Started](#getting-started)
@@ -42,7 +42,7 @@ https://github.com/user-attachments/assets/78cbaae1-fca3-4434-8e22-6da7f7ba8f44
 **보다 생동감 있는 모습의 영상**으로 구현하는 Task입니다.  
 
 
-## Overview  
+## Contents 
 <!-- Write Overview about this project -->
 <b>Task 1: 증명사진 스타일의 영정사진 생성</b>  
 * 작업 유형: Image-to-Image  
@@ -58,9 +58,9 @@ https://github.com/user-attachments/assets/78cbaae1-fca3-4434-8e22-6da7f7ba8f44
 증명사진의 표준적인 구도와 배경을 유지하면서 입력 이미지의 안정성을 강화합니다. 얼굴 중심의 정렬과 배경 보정 작업을 수행하여 정돈된 결과물을 생성합니다.  
 
 <b>Task1 Workflow</b>  
-<img src="https://raw.githubusercontent.com/rahoney/ConnectDream/main/workfiles/Task1_IDPhoto.png" alt="Task1 IDPhoto" width="500">
+<img src="https://raw.githubusercontent.com/rahoney/ConnectDream/main/workfiles/Task1_IDPhoto.png" alt="Task1 IDPhoto" width="500">  
 <b>Task1 Output</b>  
-<img src="https://raw.githubusercontent.com/rahoney/ConnectDream/main/workfiles/Task1_Out.png" alt="Task1 Out" width="300">
+<img src="https://raw.githubusercontent.com/rahoney/ConnectDream/main/workfiles/Task1_Out.png" alt="Task1 Out" width="300">  
 
 <b>Task 2: 생전 좋아했던 노래하는 모습 생성</b>
 * 작업 유형: Image-to-Image
@@ -80,7 +80,7 @@ https://github.com/user-attachments/assets/78cbaae1-fca3-4434-8e22-6da7f7ba8f44
 <b>Task2 Workflow</b>  
 <img src="https://raw.githubusercontent.com/rahoney/ConnectDream/main/workfiles/Task2_ImageTransfer.png" alt="Task2 ImageTransfer" width="500">  
 <b>Task2 Output</b>  
-<img src="https://raw.githubusercontent.com/rahoney/ConnectDream/main/workfiles/Task2_Out.png" alt="Task2 Out" width="300">
+<img src="https://raw.githubusercontent.com/rahoney/ConnectDream/main/workfiles/Task2_Out.png" alt="Task2 Out" width="300">  
 
 <b>Task 3: 생동감 있는 영상 생성</b>
 * 작업 유형: Image-to-Video
@@ -94,7 +94,7 @@ https://github.com/user-attachments/assets/78cbaae1-fca3-4434-8e22-6da7f7ba8f44
 정적인 이미지를 기반으로 눈 깜빡임과 머리카락의 움직임을 포함한 자연스러운 영상을 생성합니다. 애니메이션의 현실감을 높이며, 일관성 있는 결과를 보장합니다.
 
 <b>Task3 Workflow</b>  
-<img src="https://raw.githubusercontent.com/rahoney/ConnectDream/main/workfiles/Task3_Videowork.png" alt="Task3 Videowork" width="500">
+<img src="https://raw.githubusercontent.com/rahoney/ConnectDream/main/workfiles/Task3_Videowork.png" alt="Task3 Videowork" width="500">  
 <b>Task3 Output</b>  
   
 https://github.com/user-attachments/assets/cc32dee4-4617-4134-b5a1-014c5d38279f  
