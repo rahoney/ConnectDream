@@ -25,7 +25,7 @@ https://github.com/user-attachments/assets/78cbaae1-fca3-4434-8e22-6da7f7ba8f44
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
----
+
 ### ✨ ${\textsf{\color{Indigo}Task 1: 영정 사진 생성}}$
 고인 또는 죽음을 앞둔 분의 **일상 사진 1장**을 입력으로 사용하여,  
 스튜디오에서 촬영한 것처럼 품격 있는 **영정 사진**을 생성하는 Task입니다.  
