@@ -10,6 +10,7 @@ Supported by [(주)커넥트브릭](https://connectbrick.com/)
 ## Index
   - [About The Project](#about-the-project) 
   - [Overview](#overview)
+  - [Operational and Deployment Server Specs](#operational-and-deployment-server-specs)
   - [Model Configuration](#Model-Configuration)
   - [Getting Started](#getting-started)
   - [Tech Stack](#tech-stack)
@@ -50,6 +51,13 @@ https://github.com/user-attachments/assets/cc32dee4-4617-4134-b5a1-014c5d38279f
 
 ### Gradio로 구현한 front 작동 화면   
 https://github.com/user-attachments/assets/78cbaae1-fca3-4434-8e22-6da7f7ba8f44  
+
+
+## Operational and Deployment Server Specs
+| 서버 이름      | GPU Server 1                                                                                     | EC2 GPU                                                                                     | 배포서버                                                                                     |
+|----------------|--------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|
+| 세부 사양      | 운영체제: Linux, ComfyUI: 0.2.4, Python: 3.12.3, Torch: 2.5.0+cu124, GPU: NVIDIA L4, CPU: Intel(R) Xeon(R) CPU @ 2.20GHz, L3 캐시: 38.5 MiB, RAM: 47 GiB | 운영체제: Linux (Ubuntu 22.04), ComfyUI: 0.2.4, Python: 3.12.3, Torch: 2.5.0+cu124, xformers: 0.0.27, GPU: NVIDIA A10G (4 GPUs), vCPUs: 64, RAM: 256 GiB | 운영체제: Linux (Ubuntu 22.04), EC2 Instance Type: r7i.xlarge, vCPUs: 4, RAM: 32 GiB, 스토리지: 300GB SSD (gp3), 네트워크: 최대 12.5 Gbps, 프로세서: 4세대 Intel Xeon Scalable (Ice Lake) |
+
 
 ## Model Configuration  
 **영정 사진 생성**  
