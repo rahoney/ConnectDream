@@ -43,12 +43,6 @@ https://github.com/user-attachments/assets/78cbaae1-fca3-4434-8e22-6da7f7ba8f44
 **보다 생동감 있는 모습의 영상**으로 구현하는 Task입니다.  
 
 
-노이즈를 이용한 이미지 생성 모델인 Stable Diffusion 모델을 베이스로 한 것을 사용했고, 대부분 XL 버전이 사용되었습니다.
-
-ComfyUI를 이용하여 이미지 생성을 구현하였고, 배포는 Gradio를 활용하여 한 화면에서 구현했습니다.  
-
-<img src="https://raw.githubusercontent.com/rahoney/ConnectDream/main/workfiles/Architecture.png" alt="Architecture" width="500">  
-
 ## Overview  
 <!-- Write Overview about this project -->
 <b>Task 1: 증명사진 스타일의 영정사진 생성</b>  
